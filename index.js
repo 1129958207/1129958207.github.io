@@ -6,3 +6,7 @@ document.querySelector('.div12').onclick = function() {
 document.querySelector('.div13').onclick = function() {
   _czc.push(['_trackEvent', '测试点击统计', '点击', 'div13']);
 };
+
+document.querySelector('.div14').onclick = function() {
+  _czc.push(["_trackPageview", "/div14"]);
+};
